@@ -16,7 +16,7 @@
 </head>
 <body>
 
-  <!-- Navbar -->
+  <!-- Navbar coba -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand fw-bold" href="#">TechCorp</a>
