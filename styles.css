@@ -1,0 +1,123 @@
+/* Custom Styles */
+/* Hero Styles */
+.hero-section {
+    background-color: #fff; /* Warna latar belakang abu-abu muda */
+    padding-top: 100px; /* Ruang atas untuk menghindari tabrakan dengan navbar */
+    padding-bottom: 100px; /* Ruang bawah */
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem; /* Ukuran judul responsif */
+  }
+  
+  .hero-section img {
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar kolom */
+    border-radius: 10px; /* Sudut melengkung untuk gambar */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem; /* Ukuran judul lebih kecil untuk perangkat mobile */
+    }
+  
+    .hero-section img {
+      margin-top: 20px; /* Tambahkan ruang antara teks dan gambar pada mobile */
+    }
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .social-icons img {
+    filter: invert(1); /* Ubah ikon menjadi putih */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  }
+
+/* Custom Styles for Services Section */
+#services {
+    background-color: #f8f9fa; /* Warna latar belakang abu-abu muda */
+    padding-top: 80px; /* Ruang atas lebih besar */
+    padding-bottom: 80px; /* Ruang bawah lebih besar */
+  }
+  
+  #services h2 {
+    font-size: 2rem;
+    color: #333; /* Warna teks gelap */
+    margin-bottom: 40px; /* Jarak antara judul dan kartu */
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px; /* Sudut melengkung */
+    background-color: #ffffff; /* Warna kartu putih */
+    padding-top: 4.5rem !important; /* Padding atas 5px */
+   padding-bottom: 4.5rem !important; /* Padding bawah 5px */
+    margin-top: 20px; /* Jarak atas kartu */
+    margin-bottom: 20px; /* Jarak bawah kartu */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Efek hover: naik sedikit */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Bayangan lebih tebal saat hover */
+  }
+  
+  .card i {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover i {
+    transform: scale(1.2); /* Ikon membesar saat hover */
+  }
+  
+  .card-title {
+    font-size: 1.75rem; /* Ukuran judul lebih besar */
+    margin-bottom: 1.5rem; /* Jarak antara judul dan teks */
+    color: #333; /* Warna teks gelap */
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Ukuran teks lebih kecil */
+    color: #666; /* Warna teks abu-abu */
+  }
+
+  /* Custom Styles for portfolio Section */
+  #portfolio h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .owl-carousel .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .owl-carousel .card img {
+    height: 200px; /* Tinggi gambar tetap */
+    object-fit: cover; /* Gambar tetap proporsional */
+  }
+  
+  .owl-carousel .card-body {
+    padding: 15px;
+  }
+  
+  .owl-carousel .card-title {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .owl-carousel .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
